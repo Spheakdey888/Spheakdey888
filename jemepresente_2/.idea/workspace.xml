@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="933e21e2-f5f2-4537-be39-3c474cb60c22" name="Default Changelist" comment="" />
+    <list default="true" id="69f5649a-0339-48d8-9ba3-74e9bc0a37ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jemepresente_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etudes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/santorini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tokyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loisirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reves.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente/img/DSC02407.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/img/DSC02407.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente/img/tokyo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/img/tokyo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deuxieme projet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1abFzUTcqNBjDLC63shjby91iWg" />
+  <component name="ProjectId" id="1arqtlaOuBxYNnVpksVDLseEtrh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,21 +49,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="933e21e2-f5f2-4537-be39-3c474cb60c22" name="Default Changelist" comment="" />
-      <created>1586996648062</created>
+      <changelist id="69f5649a-0339-48d8-9ba3-74e9bc0a37ac" name="Default Changelist" comment="" />
+      <created>1587504277098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586996648062</updated>
-      <workItem from="1586996651333" duration="1029000" />
+      <updated>1587504277098</updated>
+      <workItem from="1587504282931" duration="12526000" />
+      <workItem from="1587533079629" duration="66000" />
+      <workItem from="1587533290376" duration="70000" />
     </task>
     <servers />
   </component>
@@ -54,9 +73,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="196" key="SettingsEditor" timestamp="1586997536977">
+    <state x="657" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1587592764861">
       <screen x="0" y="23" width="1920" height="1053" />
     </state>
-    <state x="478" y="196" key="SettingsEditor/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1586997536977" />
+    <state x="657" y="373" key="com.intellij.ide.util.TipDialog/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587592764861" />
+    <state x="1464" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587524529460">
+      <screen x="0" y="23" width="1920" height="1053" />
+    </state>
+    <state x="1464" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587524529460" />
   </component>
 </project>

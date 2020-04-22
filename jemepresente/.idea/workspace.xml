@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f4be9a-bdce-4748-adca-241ee8458ba6" name="Default Changelist" comment="" />
+    <list default="true" id="c3f4be9a-bdce-4748-adca-241ee8458ba6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/jemepresente_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/etudes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/img/bali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/img/santorini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/img/tokyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/loisirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/onepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/reves.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jemepresente_2/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSC02407.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/DSC02407.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tokyo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tokyo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/deuxieme projet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aHaLqyVoLFSJsoCvFsOyeIpaIX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,6 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -60,6 +81,7 @@
       <workItem from="1586399593106" duration="193000" />
       <workItem from="1586752637939" duration="7055000" />
       <workItem from="1586974626528" duration="6581000" />
+      <workItem from="1587533044194" duration="34000" />
     </task>
     <servers />
   </component>
