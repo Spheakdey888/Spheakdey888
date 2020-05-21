@@ -1,0 +1,70 @@
+@font-face {
+    font-family: maPolice;
+    src: url(../font/LuckiestGuy.ttf);
+}
+h1{
+    font-weight: bolder;
+}
+
+h3{
+    font-weight: bold;
+}
+#etudes {
+    background-color: lightyellow;
+}
+
+#sports {
+    background-color: darkgoldenrod;
+}
+
+#loisirs {
+    background-color: darkorange;
+}
+
+#reves {
+    background-color: gold;
+}
+
+
+.belleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.belleImage:hover {
+    box-shadow: 0 0 2px 5px rgba(0, 140, 186, 0.5);
+}
+
+.titreNiveau1 {
+    font-size: 30px;
+    color: red;
+    font-family: maPolice;
+}
+
+.titreNiveau2 {
+    font-size: 15px;
+    color: red;
+    font-family: 'Pacifico';
+}
+
+.div{
+    margin-top: 15px;
+    padding: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tableBoderFine{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

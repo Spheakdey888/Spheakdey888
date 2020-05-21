@@ -1,0 +1,84 @@
+/* style.css */
+/* Programmé par Sambath P. Bun */
+/* Le 22 avril 2020 */
+body
+{
+    width: 900px; /*Largeur du site*/
+    margin: auto; /* pour centrer le site en largeur */
+    background: url(../img/palmgreen_transparent.png) no-repeat left;
+    background-color: bisque;
+
+}
+h1
+{
+    color: seagreen;
+    font-size: 65px;
+    text-align: center;
+    font-family: "Mr Bedfort";
+}
+h2
+{
+    font-size: 36px;
+    text-align: center;
+    font-family: Times;
+}
+
+h3
+{
+    font-size: 24px;
+    text-align: center;
+}
+
+h2, h3 {
+    color: darkslategrey;
+}
+
+
+p
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+a:visited
+{
+    color: darkslategrey;
+}
+
+a:link
+{
+    color: royalblue;
+}
+
+img
+{
+    size: 300px;
+}
+
+img:hover{
+    box-shadow: 5px 10px #888888;
+}
+
+table, th, td
+{
+    width: available;
+    background-color: seashell;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th{
+    height: 50px;
+    color: seagreen;
+    font-size: 20px;
+}
+
+ul, ol {
+    background-color: seashell;
+    font-family: Arial;
+}
+
+td{
+    font-family: Arial;
+}

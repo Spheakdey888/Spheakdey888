@@ -3,31 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Rêves</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
 
-<h3> Mes rêves </h3>
-<table border="1">
-    <tr>
-        <th>Pays</th>
-        <th>Ville</th>
-        <th>Photo</th>
-    </tr>
-    <tr>
-        <td><strong>Indonésie</strong> </td>
-        <td> <a href="https://en.wikipedia.org/wiki/Bali"> Bali </a> </td>
-        <td> <img src="img/bali.jpg" height="333" width="500"/></td>
-    <tr>
-        <td><strong>Japon</strong></td>
-        <td> <a href="https://en.wikipedia.org/wiki/Tokyo"> Tokyo </a></td>
-        <td> <img src="img/tokyo.jpg" height="333" width="500"/></td>
-    </tr>
-    <tr>
-        <td><strong>Grèce</strong></td>
-        <td> <a href="https://en.wikipedia.org/wiki/Santorini"> Santorini </a></td>
-        <td> <img src="img/santorini.jpg" height="375" width="500"/></td>
-    </tr>
-</table>
-<a href="#1"> <a href="onepage.html">retour au menu</a>
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        div.gallery {
+            background-color: whitesmoke;
+        }
+        div {
+            box-shadow: 2px 2px 5px darkslategrey;
+        }
+    </style>
+</head>
+
+<body>
+<h2> Mes rêves </h2>
+<p> « Dans 20 ans, vous serez plus déçu par ces choses
+    <br>que vous n'avez pas faites que par celles que vous avez faites.
+    <br>Alors larguez les amarres. Mettez les voiles et sortez du port ô combien sécurisant.
+    <br>Explorez. Rêvez. Découvrez. »
+    <br>- Mark Twain
+    <br>
+    <br>
+    Je rêve un jour de faire des voyages dans les pays suivant :
+</p>
+
+<div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Bali">
+        <img src="img/bali.jpg" alt="Bali" width="600" height="400">
+    </a>
+    <div class="desc">Bali, Indonésie</div>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Barcelona">
+        <img src="img/barcelone.jpg" alt="Barcelone" width="600" height="400">
+    </a>
+    <div class="desc">Barcelone, Espagne</div>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Santorini">
+        <img src="img/santorini.jpg" alt="Santorini, Grèce" width="600" height="400">
+    </a>
+    <div class="desc">Santorini, Grèce</div>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Tokyo">
+        <img src="img/tokyo.jpg" alt="Tokyo" width="600" height="400">
+    </a>
+    <div class="desc">Tokyo, Japon</div>
+</div>
+
+<p><a href="index.html">retour au menu</a></p>
+
 </body>
 </html>

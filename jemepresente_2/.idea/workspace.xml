@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f5649a-0339-48d8-9ba3-74e9bc0a37ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jemepresente_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etudes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bali.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/santorini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tokyo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loisirs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reves.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente/img/DSC02407.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/img/DSC02407.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente/img/tokyo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/img/tokyo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deuxieme projet.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jemepresente_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jemepresente_2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/etudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/santorini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/santorini.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loisirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/loisirs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/onepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reves.html" beforeDir="false" afterPath="$PROJECT_DIR$/reves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/premierprojet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/img/fichier1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../premierprojet/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,6 +54,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,6 +70,12 @@
       <workItem from="1587504282931" duration="12526000" />
       <workItem from="1587533079629" duration="66000" />
       <workItem from="1587533290376" duration="70000" />
+      <workItem from="1587592735205" duration="1851000" />
+      <workItem from="1587600844502" duration="894000" />
+      <workItem from="1587601919890" duration="12361000" />
+      <workItem from="1587847450614" duration="6915000" />
+      <workItem from="1587871487597" duration="5000" />
+      <workItem from="1587871506592" duration="6858000" />
     </task>
     <servers />
   </component>
@@ -73,10 +83,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1587592764861">
+    <state x="680" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587602642960">
       <screen x="0" y="23" width="1920" height="1053" />
     </state>
-    <state x="657" y="373" key="com.intellij.ide.util.TipDialog/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587592764861" />
+    <state x="680" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587602642960" />
+    <state x="298" y="152" key="SettingsEditor" timestamp="1587603628320">
+      <screen x="0" y="23" width="1920" height="1053" />
+    </state>
+    <state x="298" y="152" key="SettingsEditor/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587603628320" />
+    <state x="657" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1587871486721">
+      <screen x="0" y="23" width="1920" height="1053" />
+    </state>
+    <state x="657" y="373" key="com.intellij.ide.util.TipDialog/0.23.1920.1053/1920.132.1440.877@0.23.1920.1053" timestamp="1587871486721" />
     <state x="1464" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587524529460">
       <screen x="0" y="23" width="1920" height="1053" />
     </state>
