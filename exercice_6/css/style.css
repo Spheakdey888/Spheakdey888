@@ -1,0 +1,89 @@
+/**
+Sambath Pheakdey Bun
+style.css
+2020-06-02
+**/
+
+H1{ text-align: center;
+    font-family: "Futura", serif;
+    font-size: 1rem;
+
+}
+p{
+    text-align: center;
+    font-family: Futura;
+    font-size: 0.80rem;
+}
+
+
+.cardVert{
+    background-color: rgba(0,255,0,0.1);
+}
+
+
+.textVert{
+    color: #1e7e34;
+}
+
+
+.textBleu{
+    color: #005cbf;
+}
+
+.textNoir{
+    color: black;
+    text-align: left;
+}
+
+.img{
+    border-radius: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgCard{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-btn {
+    align-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.icon{
+    font-size: 0.80rem;
+
+}
+
+
+
+.btnMarginbottom{
+    margin-bottom: 5px;
+}
+
+.fondRouge{
+    background-color: red;
+
+}
+
+.fondBleu{
+    Background-color: blue;
+
+}
+.fondGris{
+    background-color: rgba(0,0,0,0.1);
+
+}
+.fondVert{
+    Background-color: lawngreen;
+
+}

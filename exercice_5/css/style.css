@@ -1,0 +1,110 @@
+/**
+Sambath Pheakdey Bun
+style.css
+2020-06-02
+**/
+
+h1{
+    font-family: Futura, serif;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+h2{
+    font-family: Arial, serif;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h3{
+    font-family: Arial, serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+p{
+    font-family: Futura, serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.fondOrange{
+    background-color: #f05f40;
+}
+
+hr.new1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+
+hr.new2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+
+
+
+.textCenter{
+   text-align: center;
+   padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.imageHero{
+    align-items: center;
+    background-image: url(../img/image_1.jpg);
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%; /** ou cover **/
+    margin: auto;
+}
+.button1 {
+    background-color: #f05f40;
+    border-radius: 14px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Futura;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.button2 {
+    background-color: white;
+    border-radius: 14px;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Futura;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+i{
+    text-align: center;
+    font-size: 40px;
+    color: #f05f40;
+
+}
+#atyourservice{
+    padding-top: 20px;
+}
