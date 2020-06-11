@@ -15,51 +15,61 @@
 <body>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-xl-3 fondGris"><!--3/12-->
-            <div class="card bg-light mb-3">
-                <div class="card-body">
-                    <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
-                    <H1 class="textBleu"> My Profile</H1>
-                </div>
-            </div>
-            <div class="card bg-light mb-3">
-                <div class="card-body">
-                    <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
-                    <H1 class="textBleu"> Interest</H1>
 
-                    <span class="badge badge-secondary">News</span>
-                    <span class="badge badge-primary">WS3Schools</span>
-                    <span class="badge badge-success">Labels</span>
-                    <br>
-                    <span class="badge badge-info">Football</span>
-                    <span class="badge badge-warning">Gaming</span>
-                    <span class="badge badge-danger">Friends</span>
+    <div class="row text-center">
+        <div class="col-xl-3"><!--3/12-->
+            <div class="card bg-light">
+                <div class="card-body">
+                    <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
+                    <div class="card bg-light my-2">
+                        <div class="card-body py-2">
+                            <h4>My profile</h4>
+                            <img src="img/aigle.jpg" alt="myprofile" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="alert alert-success" role="alert">
+                <!-- Section Interest -->
+                    <div class="card-body">
+                        <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
+                        <div class="card bg-light my-2">
+                            <div class="card-body">
+                                <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
+                                <h1 class="textBleu"> Interest</h1>
+
+                                <span class="badge badge-secondary">News</span>
+                                <span class="badge badge-primary">WS3Schools</span>
+                                <span class="badge badge-success">Labels</span>
+                                <br>
+                                <span class="badge badge-info">Football</span>
+                                <span class="badge badge-warning">Gaming</span>
+                                <span class="badge badge-danger">Friends</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Section Vert -->
+                <div class="card-body">
+                    <div class="card alert-success mb-2" role="alert">
                     <H1>Ey!</H1>
-                        <p>People are looking at your profile.Find out who.</p>
+                    <p>People are looking at your profile.<br>Find out who.</p>
+                </div>
+                <button type="button" class="btn btn-link btn-block">Link</button>
+                <button type="button" class="btn btn-link btn-block">Link</button>
+                <button type="button" class="btn btn-link btn-block">Link</button>
+                </div>
             </div>
-
-            <button type="button" class="btn btn-link btn-block">Link</button>
-            <button type="button" class="btn btn-link btn-block">Link</button>
-            <button type="button" class="btn btn-link btn-block">Link</button>
-
-
         </div>
 
 
         <!-- Début section du milieu-->
         <div class="col-xl-7">
-            <div class="row">
+            <div class="row text-left">
                 <div class="col-12 col-sm-12"><!--12/12-->
                     <div class="card bg-light mb-3">
                         <div class="card-body">
                             <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
                             <p class="textNoir">Status : Feeling blue</p>
                             <button type="button" class="btn btn-outline-secondary btn-md">
-                                <i onclick="myFunction(this)" class="fa fa-thumbs-up">Like</i>
+                                <i class="fa fa-thumbs-up">Like</i>
                             </button>
                         </div>
                     </div>
@@ -148,16 +158,15 @@
         </div>
         <!-- Fin section du milieu-->
 
-        <div class="col-xl-2 fondGris" ><!--2/12-->
-<div class="row">
-    <div class="card bg-light mb-3">
-        <div class="card-body">
-            <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
-            <div class="card bg-light mb-3">
-                <div class="card-header">Upcoming event</div>
-                <div class="card-body">
-
-                    <img src="img/img_paris.jpg" alt="Paris" class="center">
+        <div class="col-xl-2" ><!--2/12-->
+            <div class="row">
+                 <div class="card bg-light mb-3 text-center">
+                    <div class="card-body">
+                        <!-- On ajoute ici le contenu du card ou une autre card si on veut une card imbriquée -->
+                        <div class="card bg-light mb-3">
+                        <div class="card-header">Upcoming event</div>
+                    <div class="card-body">
+                        <img src="img/img_paris.jpg" alt="Paris" class="center">
                     <h1> Paris</h1>
                     <p>Some quick example text to build on the card title and make up the bulk of
                         the card's content.</p>
@@ -178,24 +187,9 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-    </div>
+</div>
 
 <script src="https://developers.google.com/speed/libraries/#jquery"></script>
 <script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>

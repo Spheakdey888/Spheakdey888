@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- [onepage].html -->
+<!-- Par [Sambath Pheakdey Bun] -->
+<!-- Le ou Modifié [2020-04-21] -->
+
+<html lang="en">
+<head> <!-- Pour les lien-->
+    <meta charset="UTF-8">
+    <title>Index template</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="overlay"></div>
+    <video playsinline ="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+                type="video/mp4" >
+    </video>
+    <div class="container h-100" >
+        <div class="row h-100 text-center align-items-center" >
+            <div class="col-12 text-white" >
+                <h1 class="display-3" >Video Header</h1>
+                <p class="lead mb-0" >With HTML5 Video and Bootstrap 4</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> <!--class modifier btn touche pas au reste du code-->
+    Ouvrir le modal
+</button>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal"> <!--tabindex= -1 un peu comme les calques cachés -->
+    <div class="modal-dialog" role="document">
+        <!--header apres-ci -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Promotion #1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><!--bouton x-->
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <!--Body -->
+            <div class="modal-body">
+                <div class="row">
+                    <p>Inscription en cours. Début des cours lundi 15 juin 2020.</p>
+                    <img src="img/yoga-promo.jpg" alt="yoga">
+                </div>
+            </div>
+
+            <!--Pied de page pop up-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+        to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+</div>
+
+
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

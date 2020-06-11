@@ -1,0 +1,19 @@
+
+img{
+    background-size: 900px;
+}
+
+i{
+    color: white;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+}
+.textColor{
+    color: white;
+}
+
+.fondNavBar{
+    background-color: rgb(110, 18, 115); /*#6e1273 */
+    color: white;
+}

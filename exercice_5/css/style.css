@@ -3,6 +3,10 @@ Sambath Pheakdey Bun
 style.css
 2020-06-02
 **/
+@font-face {
+    font-family: maPolice;
+    src: url(../font/LuckiestGuy.ttf);
+}
 
 h1{
     font-family: Futura, serif;

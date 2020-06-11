@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -48,6 +50,8 @@
       <workItem from="1591159740599" duration="14382000" />
       <workItem from="1591175243502" duration="51000" />
       <workItem from="1591223666123" duration="639000" />
+      <workItem from="1591647207053" duration="3720000" />
+      <workItem from="1591666664307" duration="825000" />
     </task>
     <servers />
   </component>
@@ -59,5 +63,9 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="612" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1591223668107" />
+    <state x="342" y="183" width="1274" height="877" key="dock-window-1" timestamp="1591666775527">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="342" y="183" width="1274" height="877" key="dock-window-1/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1591666775527" />
   </component>
 </project>
