@@ -1,0 +1,29 @@
+/** crée par Sambath Pheakdey Bun
+ le 15 juin 20202**/
+
+
+.bodyFond1{
+    background-color: #ffe869;
+}
+
+h1{
+    font-family: Futura;
+    font-size: 2rem;
+    background-color: #1e7e34;
+}
+h2{
+    font-family: Futura;
+    font-size: 1rem;
+
+}
+
+p{
+    font-family: Futura;
+    font-size: 1.75rem;
+}
+
+.icon{
+    padding-top: 3rem;
+    color: limegreen;
+    font-size: 3rem;
+}

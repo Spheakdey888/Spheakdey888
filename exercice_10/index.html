@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- [onepage].html -->
+<!-- Par [Sambath Pheakdey Bun] -->
+<!-- Le ou Modifié [2020-06-17] -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 10- Formulaires</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form>
+    <div class="container">
+        <h1>Formulaire demande d'aide</h1>
+        <!-- Section A,B-->
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Prénom" required>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nom" required>
+            </div>
+        </div>
+        <!-- Section C-->
+        <div class="form-group mt-2">
+            <label for="exampleFormControlSelect1"><h2>Sujet de la demande d'aide</h2></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Bootstrap</option>
+                <option>Positionnement des divisions</option>
+                <option>Formulaire</option>
+            </select>
+        </div>
+        <!-- Section D-->
+        <div class="form-group mt-2">
+            <label for="exampleFormControlTextarea1"><h2>Quelle est la question?</h2></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <!-- Section E-->
+        <label for="exampleFormControlSelect1"><h2>Priorité</h2></label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Urgent
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Important
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Peut attendre
+            </label>
+        </div>
+        <!-- Section F-->
+       <br>
+        <button type="submit" value="Submit" formaction="formulaireEnvoye.html">Envoyer</button>
+        <button type="reset" value="Reset">Effacer</button>
+
+    </div>
+</form>
+
+<script src="https://developers.google.com/speed/libraries/#jquery"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

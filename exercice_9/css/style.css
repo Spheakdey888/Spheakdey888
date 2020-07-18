@@ -1,0 +1,149 @@
+/** crée par Sambath Pheakdey Bun
+ le 15 juin 20202**/
+h1{
+    margin-top: 3px;
+    font-family: Futura;
+    font-size: 2.80rem;
+}
+
+h2{
+    margin-top: 100px;
+    font-family: Futura;
+    font-size: 2.25rem;
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Futura;
+    font-size: 1.5rem;
+}
+
+.ligne{
+    color: #fd7e14;
+    height: 2px;
+}
+
+p{
+    font-family: Futura;
+    font-size: 1rem;
+}
+
+img{
+    margin-top: 100px;
+    max-width: 300px;
+}
+
+i{
+    font-size: 2rem;
+    color: white;
+}
+
+.textBlanc{
+    color: white;
+    text-align: left;
+}
+
+.fondJaune{
+    margin-top: 600px;
+    background-color: rgba(255, 232, 105, 0.75);
+    margin-bottom: 50px;
+}
+
+.fondBlanc{
+    background-color: rgba(255,255,255,0.75);
+}
+
+
+
+.parallaxZone1 {
+    /* L’image du Parallax */
+    background-image: url("../img/apsara_mera.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 600px;
+    padding-bottom: 0px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxZone3 {
+    /* L’image du Parallax */
+    background-image: url("../img/tep_monorom.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxZone4 {
+    /* L’image du Parallax */
+    background-image: url("../img/ballet 2.jpg");
+    /* L’hauteur du Parallax */
+    min-height:700px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zone5FondOr{
+    background-color: #D7B740;
+    height: 50%;
+}
+
+.zone5FondBronze{
+    background-color: #b08d57;
+}
+
+.zone5FondArgent{
+    background-color: #b5b5bd;
+}
+
+.zone5FondJaune{
+    background-color: rgba(56, 25, 255, 0.79);
+}
+
+
+.button{
+    background-color: #fd7e14;
+    color: black;
+    margin-bottom: 3rem;
+    border-radius: 0.25rem;
+}
+
+.iconClass{
+    font-size: 1rem;
+    color: white;
+}
+
+.iconClass2{
+    font-size: 1rem;
+    color: goldenrod;
+}
+
+@media screen and (max-width: 576px) {
+    div.container {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    div.parallaxZone1 {
+        background-image: url("../img/apsara_mera_vertical.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    div.parallaxZone3 h2, h3, p, .fa-li{
+        text-align: center;
+    }
+   
+}
