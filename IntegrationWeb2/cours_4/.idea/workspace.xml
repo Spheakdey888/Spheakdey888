@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49aeb5e5-c0c3-4052-9492-e722f74d61f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gtE4aGuRyY4hkKH7R2XozaFF1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49aeb5e5-c0c3-4052-9492-e722f74d61f3" name="Default Changelist" comment="" />
+      <created>1598925297042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598925297042</updated>
+      <workItem from="1598925299196" duration="465000" />
+      <workItem from="1598985207615" duration="20770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598986009265">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="688" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598986009265" />
+    <state x="473" y="190" key="SettingsEditor" timestamp="1598985842674">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="473" y="190" key="SettingsEditor/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598985842674" />
+    <state x="643" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1598985210341">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="643" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598985210341" />
+    <state x="126" y="110" width="1440" height="877" key="dock-window-1" timestamp="1599087170406">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="126" y="110" width="1440" height="877" key="dock-window-1/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1599087170406" />
+    <state x="629" y="258" key="search.everywhere.popup" timestamp="1598986798594">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="629" y="258" key="search.everywhere.popup/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598986798594" />
+  </component>
+</project>

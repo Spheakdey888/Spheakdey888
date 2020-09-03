@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfb32ba4-06c6-42f7-8a3c-a9d543192772" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gEU93z77JvBYg0x9uK7dDpWQZS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfb32ba4-06c6-42f7-8a3c-a9d543192772" name="Default Changelist" comment="" />
+      <created>1597679091429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597679091429</updated>
+      <workItem from="1597679098040" duration="19678000" />
+      <workItem from="1597850773240" duration="18949000" />
+      <workItem from="1597890252687" duration="14000" />
+      <workItem from="1598240128088" duration="2899000" />
+      <workItem from="1598455491451" duration="37000" />
+      <workItem from="1599068477277" duration="1285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597884364413">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="615" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1597884364413" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1597682628914">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597682628914" />
+    <state x="532" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1598455491532">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597850780416" />
+    <state x="532" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598455491532" />
+    <state x="1920" y="132" width="1440" height="877" key="dock-window-1" timestamp="1598455527782">
+      <screen x="1920" y="132" width="1440" height="877" />
+    </state>
+    <state x="1920" y="132" width="1440" height="877" key="dock-window-1/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598455527782" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1597685791687">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597685791687" />
+  </component>
+</project>
