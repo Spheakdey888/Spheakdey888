@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62857423-6759-44b0-8cb8-fe571c0946b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../jemepresente_2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jemepresente_2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/jemepresente_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/jemepresente_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/etudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/etudes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/img/santorini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/img/santorini.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/loisirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/loisirs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/onepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/onepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/reves.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/reves.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jemepresente_2/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jemepresente_2/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/premierprojet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/img/fichier1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../premierprojet/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="62857423-6759-44b0-8cb8-fe571c0946b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1bEaiRWt95z1ZLldiochqEMMmVc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,6 +74,7 @@
       <workItem from="1591329721134" duration="6670000" />
       <workItem from="1591345581776" duration="3000" />
       <workItem from="1594994548194" duration="465000" />
+      <workItem from="1600903888150" duration="1886000" />
     </task>
     <servers />
   </component>

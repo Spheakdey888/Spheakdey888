@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb32ba4-06c6-42f7-8a3c-a9d543192772" name="Default Changelist" comment="" />
+    <list default="true" id="231060db-4d49-4094-bcef-53258f79f17c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1gEU93z77JvBYg0x9uK7dDpWQZS" />
+  <component name="ProjectId" id="1hqWFf0Q9sRNvpG17f5W0MiQnvl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,8 +30,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="JSExplicifyFields.moveToInitializer" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -52,20 +54,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfb32ba4-06c6-42f7-8a3c-a9d543192772" name="Default Changelist" comment="" />
-      <created>1597679091429</created>
+      <changelist id="231060db-4d49-4094-bcef-53258f79f17c" name="Default Changelist" comment="" />
+      <created>1600739000950</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597679091429</updated>
-      <workItem from="1597679098040" duration="19678000" />
-      <workItem from="1597850773240" duration="18949000" />
-      <workItem from="1597890252687" duration="14000" />
-      <workItem from="1598240128088" duration="2899000" />
-      <workItem from="1598455491451" duration="37000" />
-      <workItem from="1599068477277" duration="1285000" />
-      <workItem from="1600298082284" duration="1565000" />
-      <workItem from="1600800430496" duration="621000" />
-      <workItem from="1600870299124" duration="3082000" />
+      <updated>1600739000950</updated>
+      <workItem from="1600739002835" duration="9910000" />
+      <workItem from="1600796233767" duration="8906000" />
+      <workItem from="1600871075845" duration="12433000" />
+      <workItem from="1600889133807" duration="57000" />
+      <workItem from="1600901283806" duration="19000" />
+      <workItem from="1600908326767" duration="1452000" />
     </task>
     <servers />
   </component>
@@ -73,26 +72,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="615" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597884364413">
+    <state x="247" y="165" key="#Notifications" timestamp="1600871092052">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="615" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1597884364413" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1597682628914">
+    <state x="247" y="165" key="#Notifications/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1600871092052" />
+    <state x="290" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1600803855007">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597682628914" />
-    <state x="532" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1600870406811">
+    <state x="290" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1600803855007" />
+    <state x="258" y="23" key="SettingsEditor" timestamp="1600800764860">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="258" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1600800764860" />
+    <state x="639" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1600901300785">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597850780416" />
-    <state x="532" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1600870406811" />
-    <state x="1920" y="132" width="1440" height="877" key="dock-window-1" timestamp="1598455527782">
-      <screen x="1920" y="132" width="1440" height="877" />
-    </state>
-    <state x="1920" y="132" width="1440" height="877" key="dock-window-1/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1598455527782" />
-    <state x="385" y="213" key="search.everywhere.popup" timestamp="1597685791687">
+    <state x="639" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1600901300785" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1600796383123">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597685791687" />
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600796383123" />
   </component>
 </project>

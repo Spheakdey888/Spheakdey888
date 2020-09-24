@@ -30,12 +30,12 @@ document.write( "<br>");
 // Méthode 1
 let cartePokemon1 = {
     nom : "Pikachu",
-    type : "Basic",
+    type : "Électrique",
     hp : 50,
     nomAttaque1 : "Agility",
     nomAttaque2 : "Thundershock",
-    degatsAttaque1 : "Prevent",
-    degatsAttaque2 : "Paralyzed"
+    degatsAttaque1 : 0,
+    degatsAttaque2 : 20
 };
 
 for( let cle in cartePokemon1){
@@ -48,12 +48,12 @@ document.write( "<br>");
 // Méthode 2
 let cartePokemon2 = {};
 cartePokemon2.nom = "Greninja";
-cartePokemon2.type = "Shunken Flurry";
+cartePokemon2.type = "eau";
 cartePokemon2.hp = 230;
 cartePokemon2.nomAttaque1 = "Haze Slash";
-cartePokemon2.nomAttaque2 = " Shadow Hunter";
-cartePokemon2.degatsAttaque1 = "Shuffle card" ;
-cartePokemon2.degatsAttaque2 = " 130 damage";
+cartePokemon2.nomAttaque2 = " Shadowy Hunter";
+cartePokemon2.degatsAttaque1 = 110 ;
+cartePokemon2.degatsAttaque2 = 130;
 
 for( let cle in cartePokemon2){
     document.write(cle.toString()+ " : "+ (cartePokemon2[cle].toString()) + "<br>");

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c74987-b823-4011-a0bd-e2e3a9355fac" name="Default Changelist" comment="" />
+    <list default="true" id="4606c0da-0460-46ac-a92b-741821453235" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,17 +12,10 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1gye6BtsgRHeVOjVdhw1qIedI5T" />
+  <component name="ProjectId" id="1hqdI0iWIMWMYrdP2WQEzuVK3oA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,15 +32,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0c74987-b823-4011-a0bd-e2e3a9355fac" name="Default Changelist" comment="" />
-      <created>1599091081056</created>
+      <changelist id="4606c0da-0460-46ac-a92b-741821453235" name="Default Changelist" comment="" />
+      <created>1600742472733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599091081056</updated>
-      <workItem from="1599091084835" duration="4587000" />
-      <workItem from="1599098343380" duration="294000" />
-      <workItem from="1599691476177" duration="2296000" />
-      <workItem from="1600796365266" duration="12000" />
+      <updated>1600742472733</updated>
+      <workItem from="1600742474630" duration="3145000" />
+      <workItem from="1600872347536" duration="1998000" />
+      <workItem from="1600901281219" duration="9000" />
     </task>
     <servers />
   </component>
@@ -55,9 +47,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="643" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1599691483497">
+    <state x="498" y="393" key="search.everywhere.popup" timestamp="1600872393747">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="643" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1599691483497" />
+    <state x="498" y="393" key="search.everywhere.popup/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1600872393747" />
   </component>
 </project>

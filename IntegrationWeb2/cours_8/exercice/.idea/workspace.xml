@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c74987-b823-4011-a0bd-e2e3a9355fac" name="Default Changelist" comment="" />
+    <list default="true" id="192e683f-bf5b-4203-8507-394b89de25ac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +15,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1gye6BtsgRHeVOjVdhw1qIedI5T" />
+  <component name="ProjectId" id="1hvuKBKzdwVhaaXNBHg3dRsw280" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,34 +31,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0c74987-b823-4011-a0bd-e2e3a9355fac" name="Default Changelist" comment="" />
-      <created>1599091081056</created>
+      <changelist id="192e683f-bf5b-4203-8507-394b89de25ac" name="Default Changelist" comment="" />
+      <created>1600903820102</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599091081056</updated>
-      <workItem from="1599091084835" duration="4587000" />
-      <workItem from="1599098343380" duration="294000" />
-      <workItem from="1599691476177" duration="2296000" />
-      <workItem from="1600796365266" duration="12000" />
+      <updated>1600903820102</updated>
+      <workItem from="1600903823039" duration="6190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="643" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1599691483497">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="643" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.132.1440.877@0.23.1920.1057" timestamp="1599691483497" />
   </component>
 </project>
