@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercices</title>
+</head>
+<body>
+
+<svg width="500" height="250" >
+
+    <line x1="50" y="0" x2="55" y2="25" stroke="green" stroke-width="2"></line>
+    <line x1="73" y="0" x2="65" y2="25" stroke="green" stroke-width="2"></line>
+    <circle cx="50" cy="5" r="5" fill="gold"  ></circle>
+    <circle cx="73" cy="5" r="5" fill="gold" ></circle>
+
+    <polygon points="5,10 0,100 50,50" fill="purple" stroke="1" filter="url(#f1)" ></polygon>
+    <polygon points="0,30 20,125 50,70" fill="indigo" stroke="1" ></polygon>
+    <polygon points="10,30 20,70 70,60" fill="pink" stroke="1" ></polygon>
+    <polygon points="0,70 20,80 70,60" fill="yellow" stroke="1" ></polygon>
+
+    <polyline points="50,50 20,18 15,20 0,70 20,100 50,90" fill="none" stroke-width="1" stroke="gold"></polyline>
+
+    <polyline points="70,50 100,20 105,22 120,70 100,100 70,90 " fill="none" stroke-width="1" stroke="orange"></polyline>
+
+    <defs>
+        <filter id="f1" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+        </filter>
+    </defs>
+
+    <ellipse cx="60" cy="70" rx="13" ry="50" fill="blue" stroke="indigo" stroke-width="1" ></ellipse>
+    <rect x="48" y="30"  width="10 " height="10"
+          style= "fill:red;stroke:black; stroke-width:1; opacity:0.5">  //attribut de la balise rectangle, c'est pas du CSS
+    </rect>
+
+    <rect x="62" y="30"  width="10 " height="10"
+          style= "fill:red;stroke:black; stroke-width:1; opacity:0.5">  //attribut de la balise rectangle, c'est pas du CSS
+    </rect>
+
+
+
+    <circle cx="60" cy="35" r="2" fill="white" stroke="black" stroke-width="1"></circle>
+
+
+    <path d="M 200 100 q 50 -100 100 0" stroke="blue"
+          stroke-width="5" fill="none" style="fill: magenta" />
+    <path d="M 298 100 q 50 -100 100 0" stroke="blue"
+          stroke-width="5" fill="none" />
+    <text x="60" y="80" fill="orange" transform="rotate(-70 80,65)"> Papillon</text>
+
+</svg>
+
+<br>
+<canvas id="myCanvas" width="300" height="150"
+        style="border:1px solid#0080FF "></canvas>
+<script>
+    //on stock notre canvas html dans une variable
+    let canvas = document.getElementById("myCanvas");
+    // on crée un objet qui va nous permettre de dessiner dans le canevas, ctx = notre crayon
+    let ctx = canvas.getContext("2d");
+
+    window.onload = function() {
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+    };
+
+
+    //Crée notre dégradé
+    let grad = ctx.createLinearGradient(0,0,150,0);// (x, y, x1, y1)
+    grad.addColorStop(0,"#DA70D6");
+    grad.addColorStop(1, "#4169E1");
+
+
+
+    //créer un rectangle
+    //on choisi notre dégradé comme couleur
+    ctx.fillStyle = grad;
+    ctx.fillRect(0,0,300,150);
+
+
+    //forme arc
+
+    ctx.beginPath();
+    ctx.fillStyle = "green";
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = "green";
+    ctx.arc(150,375,300,0,2*Math.PI);// (x, y, rayon, angleDeDépart, angleDarrivée)
+    ctx.stroke();
+    ctx.fill();
+
+    //carré noir
+    ctx.fillStyle = "black";
+    ctx.fillRect(125,50,50,50);
+
+    //contour orange
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = "orange";
+    ctx.strokeRect(125,51,51,51);
+
+
+    //texte An
+    ctx.font = "30px Helvetica";
+    ctx.fillStyle = "orange";
+    ctx.fillText("An", 133, 85);
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 1 : Formulaire indestructible</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--    <link rel="script" href="js/js.js"> -->
+
+</head>
+<body>
+
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<br>
+
+
+
+
+<div class="container ">
+    <form name="monformulaire" onsubmit="return validerFormulaire()" method="post">
+        <label for ="nom"> Nom :</label>
+        <input type="text" id="nom" > <br>
+
+        <label for ="âge"> Âge :</label>
+        <input type="number" id="âge" min="18" max="100" > <br>
+
+        <label for ="DDN"> Date de naissance :</label>
+        <input type="date" id="DDN" min="18" max="2020-09-30">
+        <br>
+
+        <label for ="taillecm"> Taille :</label>
+        <input type="number" id="taillecm" placeholder="cm">
+        <br>
+
+        <label for ="poid"> Poid :</label>
+        <input type="size" id="poid" placeholder="kg">
+        <br>
+
+        <label > Chat vacciné :</label>
+        <input type="checkbox" id="vaccin">
+        <label for="vaccin"> Oui </label>
+        <input type="checkbox" id="pasvaccin">
+        <label for="pasvaccin"> Non</label>
+        <br>
+
+        <label>Couleur du chat :</label>
+        <input type="radio" id="noir" name="couleur" value="noir">
+        <label for="noir">Noir</label>
+        <input type="radio" id="blanc" name="couleur" value="blanc">
+        <label for="blanc">Blanc</label>
+        <input type="radio" id="brun" name="couleur" value="brun">
+        <label for="brun">Brun</label>
+        <input type="radio" id="mixte" name="couleur" value="mixte">
+        <label for="mixte">Mixte</label>
+        <br>
+
+        <label> Type de chat :</label>
+        <input type="checkbox" id="domestique">
+        <label for="domestique">Domestique</label>
+        <input type="checkbox" id="race" >
+        <label for="race">Racé</label>
+        <br>
+
+        <label> Lieu de naissance : </label>
+        <input type="texte" id="ville" placeholder="Ville, Province, Pays">
+        <label for="ville" ></label>
+        <br>
+
+        <label for="myfile"> Plusieurs photos :</label>
+        <input type="file" id="myfile" name="myfile" multiple>
+        <br>
+
+        <label> Votre courriel : </label>
+        <input type="email" id="courriel">
+        <br>
+
+        <label> Votre numéro de téléphone : </label>
+        <input type="text" id="telephone" placeholder="1234-123--1/A" required pattern="[0-9]{4}-[0-9]{3]--[0-9]{1}/[A-Z]">
+        <br>
+
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+
+<script src="https://developers.google.com/speed/libraries/#jquery"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

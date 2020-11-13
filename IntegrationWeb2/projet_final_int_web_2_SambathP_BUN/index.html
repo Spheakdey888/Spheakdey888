@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- [index].html -->
+<!-- Par [Sambath Pheakdey Bun] -->
+<!-- Le ou Modifié [2020-11-12] -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+
+    <link rel="icon" type="image/png" href="image/favicon_ss.png"/> <!-- favicon -->
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<!-- Navigation-->
+<header>
+    <nav class=" barreNavigation navbar  navbar-expand-md navbar-dark fondNavBar fixed-top align-content-center">
+        <a class=" mr-0 text-center" href="#" >
+            <img class="navbar-brand" src="image/soupesouplogo.png" alt="">
+        </a>
+        <button type="button" class="navbar-toggler ml-1" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-mug-hot"> <h6> menu</h6></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="container-fluid">
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="navbarNav" >
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item active"><a class="nav-link" href="index.html"> Accueil <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="commande.html">Commande</a></li>
+                    <li class="nav-item"><a class="nav-link" href="traiteur.html">Traiteur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogue.html">Blogue</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<body>
+
+<!-- Section 1-->
+    <section id="1" class="home">
+        <div class="container-fluid">
+            <div style="height: 1400px">
+                <!-- just to make scrolling effect possible-->
+                <div class="row">
+                    <div class="bowl">
+                        <span class="vapour"></span>
+                        <span class="vapour"></span>
+                        <span class="vapour"></span>
+                        <span class="vapour"></span>
+                        <span class="vapour"></span>
+                        <span class="curve"></span>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="arrow bounce"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></div>
+                    <div class="below"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Section 2-->
+<section>
+
+    <div class="container-fluid parallax parallaxZone1">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-12 p-5">
+                <canvas id="myCanvas" width="400" height="500"></canvas>
+                <script>
+                    //on stock notre canvas html dans une variable
+                    let canvas = document.getElementById("myCanvas");
+                    // on crée un objet qui va nous permettre de dessiner dans le canevas, ctx = notre crayon
+                    let ctx = canvas.getContext("2d");
+
+                    window.onload = function() {
+                        let canvas = document.getElementById("myCanvas");
+                        let ctx = canvas.getContext("2d");
+                    };
+
+
+                    //Crée notre dégradé
+                    let grad = ctx.createRadialGradient(250, 275, 20, 200, 275, 175); //(x0,y0,r0,x1,y1,r1);
+                    grad.addColorStop(0,"#DA70D6");
+                    grad.addColorStop(1, "#330d38");
+
+                    //Crée boule gris
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(200,200,20,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule gris
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(220,250,10,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(170,150,6,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule gris
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(140,160,8,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule gris
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(180,120,2,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule gris
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(200,125,6,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule blanche
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(100,275,30,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "white"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée boule blanche
+                    ctx.beginPath();//début pour notre tracé
+                    ctx.arc(300,300,60,0, 2*Math.PI); //créer notre arc
+                    ctx.fillStyle = "white"; // choix de notre couleur
+                    ctx.fill(); // vient remplir la forme
+
+                    //Crée bol de soupe
+                    ctx.beginPath();
+                    ctx.arc(200, 275, 175,0, Math.PI, false);
+                    ctx.closePath();
+                    ctx.lineWidth = 6;
+                    ctx.fillStyle = grad;
+                    ctx.fill();
+                    ctx.strokeStyle = '#330d38';
+                    ctx.stroke();
+
+                    //Crée ombre en dessous bol de soupe
+                    ctx.beginPath();
+                    ctx.ellipse(200, 450, 10, 100, 90 * Math.PI/180, 0, 2 * Math.PI); //(x, y, radiusX, radiusY, rotation, startAngle, endAngle, anticlockwise);
+                    ctx.fillStyle = grad;
+                    ctx.fill();
+
+                    //Crée cuillère
+                    ctx.beginPath();
+                    ctx.rotate(40*Math.PI/180);
+                    ctx.rect(215,125, 60,10);
+                    ctx.fillStyle = '#330d38';
+                    ctx.fill();
+
+
+
+                </script>
+            </div>
+            <div class="col-lg-7 col-sm-12 p-5 ">
+                <h1 class="accueil">Le bonheur est dans la soupe</h1>
+                <p> Aussi ancienne que l'idée même de la cuisine, la soupe réchauffe et nourrit l'humanité depuis des millénaires.
+                    Les peuples du monde entier la déclinent de toutes les façons, en fonction des ingrédients que leur fournit la terre.
+                    En ces mois de grands froids, regard sur ce plat fédérateur.</p>
+                <br>
+                <h1 class="accueil">L' ABC d'un plat réconfortant</h1>
+                <p>Elle remonte au temps où l'humain, après avoir domestiqué le feu, a commencé à fabriquer des récipients et appris à faire bouillir de l'eau.
+                Dans le monde entier, du simple bouillon de racines et d'herbes dans lequel on jetait des os jusqu'au potage fin de chez Toqué !
+                200 000 ans de soupes nous contentent. Il est loin, le temps où l'on ne connaissait de soupe que celle de notre mère ou celles, plus tristes, de la grande industrie.
+                De nos jours, on déguste couramment la phô vietnamienne, le ramen japonais ou le bortsch, ce potage de betteraves venu d'Europe de l'Est. La stracciatella, soupe italienne de poulet enrichie d'oeufs battus et de parmesan, fait concurrence à la minestrone dans le coeur et l'estomac de tous. Et c'est sans parler du caldo verde portugais ou du dal indien.
+                Pour bien des gens, pourtant, la simple idée de préparer une soupe maison semble insurmontable. Les fabricants l'ont bien compris, qui inondent les rayons des supermarchés de produits souvent trop salés et remplis d'additifs. Or, rien n'est plus simple que de mitonner un bouillon bien goûteux, qui servira ensuite de base à toutes les soupes du monde. Il suffit de suivre quelques règles simplissimes.  </p>
+                (Source : La Presse +)
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Section 3-->
+<div class="container-fluid parallax parallaxZone2">
+    <div class="row mb-3">
+        <div class=" offset-1 col-lg-5 fondBlanc1">
+            <h2 class=" text-center ">« Saviez-vous que... ? »</h2>
+            <p class="text-justify">
+            <ul>
+                <li>Le mot « soupe », en ancien français, désignait une tranche de pain que l'on arrosait de bouillon, de lait ou de vin, d'où l'expression « être trempé comme une soupe ». La trace de cette coutume est encore bien visible,
+                    par exemple, dans la traditionnelle soupe à l'oignon, servie avec une tranche de pain grillé, ou dans la ribollita, une soupe toscane dont le nom signifie « rebouillie », que l'on sert réchauffée et additionnée de pain rassis.
+                </li>
+            <br>
+                <li>C'est aux propriétés roboratives du bouillon que les restaurants doivent leur nom : au milieu du XVIIe siècle, on appelait « restaurant » un bouillon reconstituant fait de jus de viande concentré (un aliment qui « restaure »).
+                    À partir du milieu du XVIIIe siècle, le terme a fini par désigner le lieu qui assurait la vente de ce bouillon.
+                </li>
+            <br>
+                <li>Il existe en France une recette ancestrale dite « soupe au caillou », qui consiste à déposer dans la marmite un galet de rivière. Gardé en mouvement par l'ébullition, le caillou agit à la manière d'un pilon : il écrase les légumes et en disperse les sucs tout en assurant une température constante dans la préparation.
+                    <br>
+                    <br>
+                    (Source : La Presse +)
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- bas de page -->
+<footer>
+    <div id="fond1" class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4 col-12">
+                <img class="pt-1 pb-2" src="image/soupesouplogo.png">
+                <h3>Mission</h3>
+                <p>Vous faire découvrir le monde
+                    <br>à travers votre bol de soupe !</p>
+            </div>
+            <div class="col-lg-4 col-12 ">
+                <h3>Contact</h3>
+                <p> 123 rue de la soupe
+                    <br>Montréal, Québec
+                    <br>H4F 2D8
+                    <br>info@soupesoup.com</p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h3>Partagez la soupe !</h3>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest-square"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <div id="fond2" class="text-center">
+        <p> 2020 © pheakdeysign</p>
+    </div>
+</footer>
+
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

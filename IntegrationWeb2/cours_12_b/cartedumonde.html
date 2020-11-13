@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- CSSMap STYLESHEET - CONTINENTS -->
+    <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents/cssmap-continents.css" media="screen" />
+
+</head>
+<body>
+
+<div class="container fluid">
+
+    <div class="row">
+       <h1> Un tour du monde dans votre bol de soupe  </h1>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <!-- CSSMap - Continents -->
+            <div id="map-continents">
+                <ul class="continents">
+
+                    <li class="c1"><a href="#afrique" >Afrique</a></li>
+                    <li class="c2"><a href="#asie">Asie</a></li>
+                    <li class="c3"><a href="#oceanie">Océanie</a></li>
+                    <li class="c4"><a href="#europe">Europe</a></li>
+                    <li class="c5"><a href="#ameriquenord">Amérique du nord</a></li>
+                    <li class="c6"><a href="#ameriquesud">Amérique du sud</a>
+
+                    </li>
+                </ul>
+            </div>
+            <!-- END OF THE CSSMap - Continents -->
+        </div>
+    </div>
+
+    <section >
+       <!-- <div id="afrique" class="container-fluid"> -->
+
+
+
+                <div id="afrique" class="well">
+                    <h1 class="pageTitle"><h1>Afrique</h1></h1>
+                    <p>Crafted with CSS3</p>
+
+                    <div class="cardWrapper">
+
+                        <!-- first Row -->
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 cardContainer">
+                                <div class="card">
+                                    <div class="front"><h3 class="cardTitle">Flip me!</h3></div>
+                                    <div class="back">
+                                        <div class="content">
+                                            <h3 class="cardTitle">I was made with CSS3</h3>
+                                            <br/>
+                                            <p id="happy"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 cardContainer">
+                                <div class="card">
+                                    <div class="front"><h3 class="cardTitle">Flip me!</h3></div>
+                                    <div class="back">
+                                        <div class="content">
+                                            <h3 class="cardTitle">I was made with JQuery</h3>
+                                            <br/>
+                                            <p id="laugh"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 cardContainer">
+                                <div class="card">
+                                    <div class="front"><h3 class="cardTitle">Flip me!</h3></div>
+                                    <div class="back">
+                                        <div class="content">
+                                            <h3 class="cardTitle">Bootstrap is my mother</h3>
+                                            <br/>
+                                            <p id="sick"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 cardContainer">
+                                <div class="card">
+                                    <div class="front"><h3 class="cardTitle">Flip me!</h3></div>
+                                    <div class="back">
+                                        <div class="content">
+                                            <h3 class="cardTitle">Welldone!</h3>
+                                            <br/>
+                                            <p id="sad"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- first Row End -->
+                    </div><!--cardWrapper Ends-->
+
+                </div>
+
+
+
+
+      <!--  </div> -->
+    </section>
+
+    <section>
+
+        <div id="asie" class="container-fluid">
+            <h1>Asie</h1>
+
+
+
+        </div>
+
+    </section>
+
+    <section id="oceanie">
+        <h1>Océanie</h1>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+</div>
+
+
+
+
+
+
+<!-- Script pour la carte du monde -->
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- CSSMap SCRIPT -->
+<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+// CSSMap;
+        $("#map-continents").CSSMap({
+            "size": 1450,
+            "mapStyle": "vintage",
+            "tooltips": "floating-top-center",
+            "responsive": "auto"
+        });
+// END OF THE CSSMap;
+
+    });
+
+<!-- Fin Script pour la carte du monde -->
+</script>
+
+
+<!-- <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="scrollIt.js" type="text/javascript"></script> -->
+<script src="js/script.js"></script>
+</body>
+</html>
+

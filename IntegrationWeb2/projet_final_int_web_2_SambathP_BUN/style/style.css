@@ -1,0 +1,805 @@
+/* Projet final Int. Web 2
+   Par [Sambath Pheakdey Bun]
+   Le [2020-11-12] */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #E9C46A;
+}
+
+/* ------------ Début pour navigation  -------------*/
+
+.barreNavigation {
+
+    width: 100%;
+    font-size: 1.25rem;
+    font-family: "Futura";
+}
+
+.active {
+    background-color: #E76F51;
+}
+.fondNavBar{
+    background-color: #F4A261;
+}
+
+.barreNavigation li{
+    margin: 10px;
+}
+
+/* ------------ fin pour navigation -------------*/
+
+/* ------------ CSS pour section menu et carte -------------*/
+h1 #continent {
+    font-family: "Homemade Apple";
+    font-size: 2rem;
+}
+
+#afrique{
+    background-color: #FC913A;
+    padding-bottom: 25px;
+}
+
+#asie{
+    background-color: #FF8C94 ;
+    padding-bottom: 25px;
+}
+
+#oceanie{
+    background-color: #FFD3B5;
+    padding-bottom: 25px;
+}
+
+#europe{
+    background-color: #DCEDC2;
+    padding-bottom: 25px;
+}
+
+#ameriquenord{
+    background-color: #A8E6CE;
+    padding-bottom: 25px;
+}
+
+#ameriquesud{
+    background-color: #EDE574;
+    padding-bottom: 25px;
+}
+
+.card-body p {
+    text-align: justify;
+    padding: 5px;
+}
+.card-body a {
+    color: white;
+    align-items: center;
+}
+.card-body a:hover {
+    color: #ffefcc;
+    align-items: center;
+}
+
+
+/* ------------ début pour carte du monde -------------*/
+
+@import url(
+https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+body {
+    font-family: "Futura", serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #333;
+    background: #E9C46A;
+    /*background-image: url(https://subtlepatterns.com/patterns/gplaypattern.png);*/
+    background-position: center center;
+}
+
+#fondCarteMonde {
+    background: radial-gradient(ellipse farthest-corner at center top, #1ccea6,#2f61e2);
+}
+
+.continent{  /* titre H1 section menu*/
+    color: teal;
+    font-family: "Homemade Apple";
+    padding: 20px;
+}
+
+.h1Carte {
+    margin-top: 100px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+#carte{
+    padding: 10px;
+}
+/* ------------ fin pour carte du monde -------------*/
+
+
+
+
+/*--------------Footer ----------------------*/
+#fond1{
+    background-color: #2A9D8F;
+    padding: 10px;
+}
+
+#fond2{
+    background-color: #264653;
+}
+#fond2 p
+{
+    color: #CCD1D1;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer i{
+    font-size: 2rem;
+}
+
+footer h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+/* ------------ Animation accueil pour la soupe -------------*/
+.bowl {
+
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 500px;
+    /*height: 200px;
+    border-radius: 20px 20px 200px 200px;
+    box-shadow: 5px -5px 20px 5px #0007 inset;*/
+}
+/*-
+.bowl::before {
+    content: "";
+    position: relative;
+    top: -15px;
+    left: 5px;
+    display: inline-block;
+    width: 190px;
+    height: 40px;
+    background-color: #BC7B3B;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 5px #fff,
+    0px 0px 0px 0px #fff;
+}
+
+.bowl::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #0003;
+    position: relative;
+    top: 75%;
+    left: 27%;
+}
+
+.curve {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    border-bottom: 5px solid #fff;
+    border-radius: 100%;
+}
+*/
+.vapour {
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    height: 100px;
+    width: 10px;
+    border-radius: 100px 0;
+    filter: blur(15px);
+    z-index: 1;
+}
+
+.vapour:nth-child(1) {
+    animation: floating-vapour 2s ease-in-out infinite;
+    left: 30%;
+}
+
+.vapour:nth-child(2) {
+    animation: floating-vapour 5s ease-in-out infinite;
+    left: 40%;
+}
+
+.vapour:nth-child(3) {
+    animation: floating-vapour 3s ease-in-out infinite;
+    left: 50%;
+}
+
+.vapour:nth-child(4) {
+    animation: floating-vapour 4s ease-in-out infinite;
+    left: 60%;
+}
+
+.vapour:nth-child(5) {
+    animation: floating-vapour 6s ease-in-out infinite;
+    left: 70%;
+}
+
+@keyframes floating-vapour {
+    0% {
+        top: 0px;
+        opacity: 1;
+        height: 20px;
+    }
+    100% {
+        top: -250px;
+        opacity: 0;
+        height: 100px;
+    }
+}
+
+/* @keyframes floating-vapour {
+  0% {
+    top: -85px;
+    opacity: 1;
+  }
+  100% {
+    top: -250px;
+    opacity: 0;
+  }
+} */
+
+/* Home section page accueil */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/fusco-studio_2.jpg);
+    background-position: center top;
+    background-size:cover;
+}
+.home2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/ella-olsson-fxJTl_gDh28-unsplash.jpg);
+    background-position: center top;
+    background-size:cover;
+}
+
+.fondBlanc1{
+    background-color: rgba(255, 255, 255, 0.8) ;
+    padding: 40px;
+    margin: 50px;
+}
+
+
+
+/* ---------------- Début animation fleche vers le bas, page accueil ------------- */
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.container {
+    height: 100vh;
+}
+.below {
+    height: 100vh;
+}
+
+i {
+    display: block;
+    color: #fff;
+
+}
+.arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 60px; /*change with size of arrow to make sit on bottom */
+    /*   background-image: url(); */
+    /*   background-size: contain; */
+}
+
+.arrow i{
+    color: #ffffff;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+/* ---------------- Fin animation fleche vers le bas ------------- */
+
+.parallaxZone1 {
+    /* L’image du Parallax */
+    background-image: url("../image/photo_zone1.jpg");
+    /* L’hauteur du Parallax */
+    min-height:700px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxZone1 h1 {
+    font-family: "Homemade Apple";
+    font-size: 2rem;
+    color: white;
+}
+
+.parallaxZone1 p {
+    color: white;
+    text-align: justify;
+}
+
+
+.parallaxZone2 {
+    /* L’image du Parallax */
+    background-image: url("../image/photo_zone2.jpg");
+    /* L’hauteur du Parallax */
+    min-height:700px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxZone2 li {
+    text-align: justify;
+}
+/*---- Style pour Formulaire page service ----*/
+
+#formulaireCommande{
+    background: radial-gradient(circle, rgba(233,196,106,1) 0%, rgba(244,162,97,1) 50%, rgba(231,111,81,1) 100%);
+}
+.headlineH4Afrique{
+    color: black;
+    font-size: 1.5rem;
+    background-color: #fd7e14;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.headlineH4Asie{
+    color: black;
+    background-color: #FF8C94;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.headlineH4Oceanie{
+    color: black;
+    background-color: #FFD3B5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.headlineH4Europe{
+    color: black;
+    background-color: #DCEDC2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.headlineH4AmeriqueNord{
+    color: black;
+    background-color: #A8E6CE;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.headlineH4AmeriqueSud{
+    color: black;
+    background-color: #EDE574;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#exampleFormControlSelect{
+    width: 50%;
+}
+
+
+
+#formulaireCommande h1{
+    color: black;
+}
+
+#formulaireCommande img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    margin: 10px;
+}
+
+form p::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+/*---- CSS Leaflet Carte avec zones de livraison ----*/
+
+#mapid {
+    height: 75vh;
+}
+
+.jumbotron-fluid{
+    margin: 25px;
+}
+
+
+#livraison{
+    background-color: #E9C46A;
+    padding: 25px;
+}
+
+#livraison h1{
+    color: #049277;
+}
+#livraison p{
+    text-align: justify;
+}
+#zone1 {
+    color: #049277;
+}
+
+#zone2 {
+    color: #d5cb36;
+}
+
+#zone3 {
+    color: rgba(238,67,71,0.74);
+}
+#zone4 {
+    color: rgba(112,112,112,0.74);
+}
+#serviceLivraison{
+    background-color: #555555;
+    background-image: url("../image/photo_zone1.jpg");
+    padding: 45px;
+}
+
+/*-------- blogue -------*/
+
+#carouselExampleControls{
+    margin: 100px;
+
+}
+
+/*----- button up pour page menu ------*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ee4347; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#myBtn i{
+    font-size: 2rem;
+}
+
+
+/*----Section blogue---*/
+.teal {
+    background-color: #2A9D8F;
+}
+
+.rgba-teal-strong{
+    background-color: rgba(42,157, 143,0.5);
+}
+
+.card-header a{
+    color: white;
+}
+.card-header a:hover{
+    color: #18c9b4;
+    text-decoration: none;
+}
+#recetteBouillon{
+    padding: 30px;
+    background-color: #E76F51;
+}
+
+#chiffre{
+    color: teal;
+    font-family: bold;
+}
+
+#recetteBouillon h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #E9C46A;
+}
+#recetteBouillon i {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #E9C46A;
+}
+
+.card-body .fa.fa-heart:hover {
+    color: #f44336 !important;
+}
+.card-body .fa.fa-share-alt:hover {
+    color: #0d47a1 !important;
+}
+
+.card-body .btn-primary  {
+    background-color: #E76F51;
+}
+.card-body .btn-primary a:hover {
+    background-color: teal;
+}
+
+hr {
+    border-top: 5px dotted whitesmoke;
+    width: 70rem;
+
+}
+
+.titreBlanc {
+    padding-top: 5rem;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    font-family: "Homemade Apple";
+}
+
+#blogue {
+    width: 100%;
+    height: 200px;
+    background-image: url("../image/homemade-chicken-stock-recipe-bone-broth-elizabeth-rider.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+/*-----------Page traiteur---------- */
+
+.titreRose {
+    padding-top: 3rem;
+    color: #e76f51;
+    font-size: 2.5rem;
+    font-family: "Homemade Apple";
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/green-pea-cream-soup-white-marble-table_127032-433.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+/*----------- Media query---------- */
+
+
+@media screen and (max-width: 576px) {
+    /* Medias query taille de images page accueil*/
+    #myCanvas{
+        width: 200px;
+    }
+
+    .bowl{
+        position: absolute;
+        top: 60%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 200px;
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        margin-left: -20px;
+        width: 40px;
+        height: 30px; /*change with size of arrow to make sit on bottom */
+    }
+
+    h1.accueil{
+        font-family: 'Homemade Apple';
+        font-size: 1.50rem;
+
+    }
+    .home {
+        width: 100%;
+        height: 120vh;
+        background-image: url(../image/fusco-studio-fdad5YR-L1I-unsplash.jpg);
+        background-position: center top;
+        background-size:cover;
+    }
+
+    .parallaxZone2 h2 {
+        font-size: 1.125rem;
+    }
+
+    .fondBlanc1{
+        background-color: rgba(255, 255, 255, 0.8) ;
+        padding: 30px;
+        margin: 15px;
+    }
+
+    /* Medias query taille de police page menu*/
+    #fondCarteMonde h1{
+        padding-top: 0.4rem;
+        font-family: 'Homemade Apple';
+        font-size: 0.8rem;
+    }
+
+    h1.continent {
+        padding-top: 0.9rem;
+        font-family: 'Homemade Apple';
+        font-size: 1.5rem;
+    }
+    h5.card-title {
+        font-size: 1rem;
+    }
+    p.card-text {
+        font-size: 0.6rem;
+    }
+
+    button {
+        font-size: 0.2rem;
+    }
+    #myBtn {
+        font-size: 5px;
+    }
+
+    #myBtn i {
+        font-size: 0.7rem;
+    }
+
+    /* Medias query taille de police page commande*/
+
+    .jumbotron-fluid h1{
+        font-size: 1.125rem;
+    }
+    .jumbotron-fluid h4{
+        font-size: 0.9rem;
+    }
+
+    .jumbotron-fluid p{
+        font-size: 0.65rem;
+    }
+
+    #serviceLivraison{
+        padding: 40px 10px;
+    }
+
+    #formulaireCommande h1{
+        font-size: 1.125rem;
+    }
+    #formulaireCommande label{
+        font-size: 0.65rem;
+    }
+
+    #formulaireCommande input{
+        font-size: 0.65rem;
+    }
+    /* Medias query taille de police page traiteur*/
+    #contact {
+        width: 100%;
+        height: 140vh;
+        background-image: url("../image/green-pea-cream-soup-white-marble-table_mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+    }
+    .titreRose{
+        font-size: 1.25rem;
+    }
+
+    #formTraiteur input, #formTraiteur label, #formTraiteur select, #formTraiteur button{
+        font-size: 0.75rem;
+    }
+}
+
+
+
+
+
+
+
